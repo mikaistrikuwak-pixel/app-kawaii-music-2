@@ -36,4 +36,3 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh release create "v${{ github.run_number }}" KawaiiMusic.apk --title "Kawaii Music build ${{ github.run_number }}" --notes "APK debug"
-        
